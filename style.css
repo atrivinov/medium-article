@@ -1,0 +1,72 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1
+{
+  padding-top: 150px;
+  color: yellow;
+  text-shadow: 2px 2px 2px green;
+  font-size: 45px;
+}
+
+.subtitle
+{
+  padding: 5px;
+  color: gray;
+  text-align: left;
+}
+
+p
+{
+  padding: 5px;
+  text-align: left;
+}
+
+h3
+{
+  color: lightgray;
+  text-align: left;
+  width: auto;
+}
+
+h3:hover
+{
+  background-color: aqua;
+  color: green;
+}
+
+main
+{
+  text-align: center;
+  font-style: italic;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.card-banner
+{
+  background-image: url('./banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+.banner-subtitle
+{
+  color: yellow;
+  text-shadow: 2px 2px 2px green;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center !important;
+}
+
+.card
+{
+  width: 100%;
+  padding: 30px;
+}
